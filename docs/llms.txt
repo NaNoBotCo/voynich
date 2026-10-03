@@ -1,0 +1,147 @@
+# The Voynich Manuscript · ข้อเขียนวอยนิช
+
+How people try to read the Voynich manuscript, a fifteenth-century book in a script nobody can read: the book, its owners, its date, and the tests people run on its text, with live toys for transcription, word counts, word grammar, repeats, ciphers and hoaxes. In English and Thai.
+
+English: https://nanobotco.github.io/voynich/
+Thai: https://nanobotco.github.io/voynich/th/
+Data: https://nanobotco.github.io/voynich/data/vms.json (every page of the ZL transliteration: folio, illustration, Currier language, hand, lines)
+
+## The book
+
+The Voynich manuscript is a small book of calfskin vellum, about 23 by 16 centimetres, now at Yale's Beinecke Rare Book and Manuscript Library. About 240 pages survive; some fold out to several times the page size. It has 102 leaves; the old leaf numbers run to 116, so 14 are missing.
+Every page is written in an alphabet of about twenty to thirty letters that turns up in no other document. The writing flows like a practised hand, with no crossings-out. Around it are pictures: plants that match no plant anyone agrees on, star charts, the zodiac, naked women in green pools joined by pipes, a huge foldout of circles, and jars beside roots and leaves.
+In the hero drawing at the top, the letters are copied from a real herbal page, stroke by stroke, and the plant is drawn by a rule with a dice roll. Tap it for another page.
+
+## Map of the book
+
+Each tile is a page with writing, in book order. The bar shows how much text it holds. Colour it by the kind of picture, by the two dialects Prescott Currier found in 1976, or by the five scribes Lisa Fagin Davis found in 2020. The dialects and the scribes line up with the sections: whoever made the book did not write it all the same way.
+
+## Owners
+
+The book's story starts in Prague around 1600 and comes to us through a run of letters, a signature and a sale.
+- 1599?: Marci's letter says the Holy Roman Emperor Rudolf II paid 600 ducats for it. In 2022 Stefan Guzy found Rudolf buying books from Karl Widemann in 1599 for 600 florins, probably this sale. Rudolf collected curiosities and alchemists.
+- 1608+: Jacobus Horčický de Tepenec, Rudolf's chemist, writes his name at the foot of the first page. He took the 'de Tepenec' title in 1608, so he signed after that. The name had faded away; Voynich brought it back with chemicals around 1914, and it reads under ultraviolet light.
+- 1639: Georg Baresch, an alchemist in Prague, writes to the Jesuit scholar Athanasius Kircher in Rome, who claimed to have read Egyptian hieroglyphs, and asks for help. His letter is the earliest sure mention of the book.
+- 1665: Johannes Marcus Marci, rector of the University of Prague, inherits the book and posts it to Kircher with a letter. The letter is still with the book. Marci probably wrote the erased alphabets in the margin of the first page, the earliest known try at a key.
+- 1912: Wilfrid Voynich, a rare-book dealer, buys it from the Jesuits near Rome, with a crate of other books, and spends the rest of his life trying to get it read.
+- 1961: After Voynich dies in 1930 and his widow Ethel in 1960, their heir Anne Nill sells it to the dealer Hans P. Kraus for $24,500. Kraus finds no buyer.
+- 1969: Kraus gives it to Yale. The Beinecke Library puts every page online, free to look at.
+
+## Who could have written it?
+
+In 2009 a team at the University of Arizona cut four tiny samples from four leaves and dated the carbon in them. The calves died between 1404 and 1438. A chemical study of the inks and paints found them consistent with that age, though ink cannot be dated as closely as vellum.
+Vellum could sit blank on a shelf for years before someone wrote on it. Slide the shelf time and watch which suspects become possible. Roger Bacon, the favourite for decades, died more than a century before the calves were born.
+
+## Glyphs
+
+Before you can count anything you have to decide what the letters are. Is that a curl or a new letter? Are two loops joined at the top one letter or two? Different readers answered differently, and their counts came out different.
+Most work today uses EVA, the European Voynich Alphabet, set up by René Zandbergen and Gabriel Landini in 1997–98. EVA gives each pen stroke group a Latin letter so a computer can store it. EVA letters are labels, not sounds: daiin is how we spell a word on a keyboard, not how anyone said it.
+Tap a glyph. The bars show where it sits in a word. Some letters keep to one place, the way English q keeps before u.
+
+## Count it
+
+If you cannot read a text you can still measure it. People run the same tests on the manuscript that they run on known languages, then look for where it matches and where it breaks. Below, 12,000 words of each: the manuscript's two dialects, Latin from Augustine's Confessions, English from Culpeper's Herbal of 1652, and random letters. The cipher and hoax toys further down add their own.
+So the text follows Zipf's law like a language, but its letters are far more predictable than any European language, and it repeats itself in ways sentences rarely do. Each camp below starts from those two facts.
+Other measures point the same way. Marcelo Montemurro and Damián Zanette found in 2013 that some words cluster in particular sections, the way topic words do in known texts. Others answer that a system for making meaningless text could produce clusters too.
+
+## Word grammar
+
+Voynich words are built from pieces that come in a fixed order. q comes first if it comes at all; tall 'gallows' letters come near the front; dy, aiin and ol come last. Jorge Stolfi in the 1990s and others since have drawn this up as a grammar of slots.
+Ours below has eleven slots. Spin it to make a word, or type one to see it parsed. The share of the manuscript's words that fit is measured live.
+
+## Repeats
+
+Pick a page. Words that already appeared on the page are red. Words one glyph away from an earlier word, such as qokedy after qokeedy or okedy, are yellow.
+Torsten Timm noticed how many words are near-copies of words just above them, and with Andreas Schinner built a model in 2020: the scribe made up nothing new, but copied a word from earlier on the page and changed a letter or two. Try it in Hoax.
+
+## A cipher
+
+Maybe the book says something ordinary, in Latin or Italian or German, hidden by a cipher. Early-fifteenth-century Italy had ciphers that swapped letters for symbols and added symbols that meant nothing. The codebreakers of both world wars tried every method they knew and none of them worked.
+Type some Latin and choose a method. The bench in Count shows what each one does to the statistics, on 12,000 words of Augustine.
+Swapping letters cannot explain the low h2: a plain swap keeps the language's own patterns, which Friedman's teams noticed. A verbose cipher gets closer. In 2025 Michael Greshko built one from dice and playing cards, tools a fifteenth-century Italian could have owned, and showed it can match many of the manuscript's statistics. Nobody has found the cipher that turns its text back into a language.
+Swap: each letter becomes one Voynich glyph. Words keep their lengths and their pattern; h2 stays near Latin's.
+Syllable: a verbose cipher. Each letter becomes a short chunk such as ok or aiin, and the chunks are cut into new words. h2 drops toward the manuscript's, but the vocabulary shrinks.
+
+## A hoax
+
+Maybe there is no message: someone made a strange book to sell. Wilfrid Voynich himself was once suspected, but the vellum, the ink and the 1665 letter rule him out. Edward Kelley, a con man at Rudolf's court, was a favourite. The question became whether anyone in that age could produce 240 pages of text this regular without meaning anything.
+In 2004 Gordon Rugg showed one way. Fill a table with word pieces: starts, middles, ends. Lay a card with three holes over it. Each place you set the card gives you a word. Slide it and keep going.
+Our table is small and its pieces are ours, not Rugg's. His point holds: words from a grille have the manuscript's tight structure and low h2. With a small table the vocabulary comes out too small and Zipf's line fails; Rugg used larger tables and more cards.
+Timm and Schinner's scribe starts with one line from the manuscript, then writes each new word by copying a word from the line above or nearby and changing it a little: k for t, an extra e, a new ending. The newest word is red; the dashed line points to the word it most resembles.
+Ours is a rough sketch of their method and its numbers drift from the manuscript's; theirs is tuned and matches more of them. Neither a grille nor copying proves the text is meaningless. They show that a lack of meaning would explain the statistics as well as a cipher would.
+
+## A language
+
+Maybe it is a real language written in a new alphabet: a lost dialect, a language from far away written down by a traveller, or a language with words cut short so that endings repeat. Zipf's law, the clusters of section words, and the way labels next to pictures differ from running text all fit a language.
+The low h2 is the problem. It fits a language only if the alphabet works differently from ours, for example if some glyphs are parts of letters, or if aiin is a single sound written with four strokes. EVA's choice of what counts as a letter matters here, as you saw in Glyphs.
+Every claimed reading so far has failed one of two tests: the method must produce the same answer for anyone who follows it, and it must read whole lines into grammatical sentences. Partial readings of a few labels, like Stephen Bax's, pass the first test for a few words and have not yet reached the second.
+In 2026 Colin Layfield and Lisa Fagin Davis ran latent semantic analysis, a test of whether neighbouring passages share vocabulary the way topics do, and found the text flows like known texts. In a second paper they argue the book began as loose folded sheets, read in order and later bound out of order, and try to put them back.
+
+## Pictures
+
+The pictures are the one part anyone can look at. Botanists have tried to name the plants for a century; some look like violets, ferns, water lilies or a sunflower, and many look like nothing at all, sometimes combining the roots of one plant with the leaves of another.
+Ten of the zodiac pages have month names beside them, March to December, written in Latin letters by a later hand: mars, aberil, may, augst. They are among the few words in the book anyone can read. René Zandbergen reads them as northern French, close to the month names on an astrolabe from Picardy, so someone there may once have held it.
+In 2024 Keagan Brewer and Michelle Lewis read the women, pools and turning diagrams as fifteenth-century medicine about sex and childbirth, which writers of the time sometimes hid in cipher. Like every reading of the pictures, it says what the book may be about without reading a word of it.
+
+## Claims
+
+Someone announces a solution most years. Here are the ones that drew the most notice. Red bar: rejected by specialists. Yellow: still argued over. Green: a method that makes Voynich-like text, not a translation.
+The Beinecke receives claimed solutions by email so often that its curators have a reply ready. Lisa Fagin Davis, who has read many of them, asks two things of each: does it read whole sentences, and would someone else following the same rules get the same words?
+- 1921 · William Romaine Newbold · Roger Bacon, in microscopic shorthand: He read tiny strokes inside the letters as Greek shorthand and found Bacon describing a telescope and cells. John Manly showed in 1931 that the strokes are cracks in drying ink, and that Newbold's method could turn any text into any message.
+- 1944 · William Friedman · A made-up language, built on a plan: The codebreaker who broke Japan's Purple machine ran two study groups on the manuscript. He came to think it was an early artificial language, its words built from a classification of things, and he hid that belief in an anagram.
+- 1945 · Leonell Strong · Anthony Ascham, an English herbalist, in cipher: A cancer researcher who said he had found a double-key cipher hiding sixteenth-century English. Nobody could repeat his steps, and the vellum turned out a century older than Ascham.
+- 1978 · John Stojko · Ukrainian with the vowels left out: His readings did not hang together as Ukrainian of any period.
+- 1987 · Leo Levitov · Cathar rites, in a mix of Flemish and other tongues: Historians of the Cathars found his account of their beliefs wrong, and the language he described has no other record.
+- 2004 · Gordon Rugg · A hoax, made with a table and a card with holes: He did not translate it. He showed that a sixteenth-century tool could turn out text with many of its odd habits. Try it in Hoax below.
+- 2013 · Arthur Tucker & Rexford Talbert · Plants of Mexico, words in Nahuatl: They matched drawings to American plants. The vellum dates from before Columbus sailed, so most readers set it aside.
+- 2014 · Stephen Bax · A few plant and star names, letter by letter: A linguist who matched labels next to pictures with names, such as Taurus beside a cluster of stars and kantairon, centaury, beside a plant, and offered sound values for some letters. He called it provisional. Others could not extend it to whole lines.
+- 2016 · Greg Kondrak & Bradley Hauer · Hebrew, with the letters of each word shuffled: A computer compared the text with 380 languages and picked Hebrew. Run through Google Translate, their first line read as a garbled sentence about a priest and a house. Hebrew scholars found no Hebrew in it.
+- 2017 · Nicholas Gibbs · Latin abbreviations, a women's health manual: Printed in the Times Literary Supplement. Lisa Fagin Davis and others answered that his sample sentences were not grammatical Latin.
+- 2019 · Gerard Cheshire · Proto-Romance, written for a queen: Published in a journal and announced by his university, which took down its news story after medieval scholars objected that the language he described never existed.
+- 2020 · Torsten Timm & Andreas Schinner · Meaningless text, each word copied from one above and changed: A model of how a scribe could have produced the text without a message. It explains the near-repeats you can see in Repeats.
+- 2024 · Keagan Brewer & Michelle Lewis · Sex and childbirth, kept secret on purpose: Two historians who read the pictures, not the words. They tie the book to the physician Johannes Hartlieb, who urged 'secret letters' for recipes about contraception and abortion, and read the Rosettes as conception. A hypothesis, not a reading.
+- 2025 · Michael Greshko · A cipher of dice and cards that makes Voynich-like text: He built a cipher from tools a fifteenth-century Italian could have owned and showed that it turns Latin or Italian into text with many Voynich fingerprints. He calls it almost certainly not the way the manuscript was made, and it decrypts none of its text.
+
+## Words
+
+- Vellum · แผ่นหนังลูกวัว: Calfskin scraped thin and dried flat to write on. Its carbon gives the date the calf died.
+- Folio · โฟลิโอ: One leaf of the book. r (recto) is the front, v (verso) the back: f1r, f1v.
+- EVA · อักษร EVA: European Voynich Alphabet: Latin letters standing for Voynich pen strokes, so a computer can store the text. A label, not a sound.
+- Transliteration · การถอดอักษร: Writing one script in another letter by letter, without translating. The ZL file is a transliteration of every page into EVA.
+- Gallows · ตะแลงแกง: The four tall Voynich letters, EVA k, t, p, f, named for their shape.
+- Currier A and B · ภาษา A และ B ของเคอร์เรียร์: Two dialects of the text Prescott Currier found in 1976: different common words, different spellings, matching different sections.
+- Zipf's law · กฎของซิปฟ์: In a language the commonest word appears about twice as often as the second, three times as often as the third, and so on.
+- Entropy, h2 · เอนโทรปี h2: A measure in bits of how unpredictable the next letter is once you know the one before it. Lower means more predictable.
+- Verbose cipher · รหัสเยิ่นเย้อ: A cipher that writes each plain letter as several cipher symbols, so the text grows longer and more repetitive.
+- Cardan grille · ตะแกรงคาร์ดาโน: A card with holes laid over a sheet to pick out letters or pieces. Named for Gerolamo Cardano, who described it in 1550.
+- Radiocarbon dating · การหาอายุด้วยคาร์บอน: Living things take in carbon-14, which decays at a known rate after death. Measuring what is left gives the date of death.
+- A priori language · ภาษาประดิษฐ์แบบอะไพรออริ: A made-up language whose words are built from a classification of ideas, not borrowed from real languages. Friedman's theory.
+
+## Sources
+
+- Beinecke Library: Voynich Manuscript, full digital copy: https://collections.library.yale.edu/catalog/2002046
+- René Zandbergen, voynich.nu: description, history, transliterations (CC0): https://www.voynich.nu/
+- voynich.nu: the radiocarbon dating and the McCrone ink report: https://www.voynich.nu/extra/carbon.html
+- voynich.nu: the month names and other writing in Latin letters: https://www.voynich.nu/writing.html
+- Stefan Guzy, The Purchase of the Voynich Manuscript by Rudolf II (2022): https://ceur-ws.org/Vol-3313/paper16.pdf
+- Lisa Fagin Davis, How Many Glyphs and How Many Scribes? Manuscript Studies 5.1 (2020): https://doi.org/10.1353/mns.2020.0011
+- Lisa Fagin Davis, Multispectral imaging and the Voynich Manuscript (2024): https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/
+- Prescott Currier's papers, at voynich.nu: https://www.voynich.nu/a1_intro.html
+- John Manly, Roger Bacon and the Voynich MS, Speculum 6 (1931): https://doi.org/10.2307/2848508
+- Jorge Stolfi, A grammar for Voynichese words (2000): https://www.ic.unicamp.br/~stolfi/voynich/00-06-07-word-grammar/
+- Bowern & Lindemann, The Linguistics of the Voynich Manuscript, Annual Review of Linguistics 7 (2021): https://doi.org/10.1146/annurev-linguistics-011619-030613
+- Montemurro & Zanette, Keywords and Co-Occurrence Patterns in the Voynich Manuscript, PLOS ONE (2013): https://doi.org/10.1371/journal.pone.0066344
+- Gordon Rugg, An Elegant Hoax? Cryptologia 28 (2004): https://doi.org/10.1080/0161-110491892755
+- Timm & Schinner, A possible generating algorithm of the Voynich manuscript, Cryptologia 44 (2020): https://doi.org/10.1080/01611194.2019.1596999
+- Stephen Bax, A proposed provisional partial decoding of the Voynich script (2014): https://stephenbax.net/wp-content/uploads/2014/01/Voynich-a-provisional-partial-decoding-BAX.pdf
+- Hauer & Kondrak, Decoding Anagrammed Texts Written in an Unknown Language and Script, TACL 4 (2016): https://doi.org/10.1162/tacl_a_00084
+- Gerard Cheshire, The Language and Writing System of MS408 (Voynich) Explained, Romance Studies 37 (2019): https://doi.org/10.1080/02639904.2019.1599566
+- Brewer & Lewis, The Voynich Manuscript, Dr Johannes Hartlieb and the Encipherment of Women's Secrets, Social History of Medicine 37 (2024): https://doi.org/10.1093/shm/hkad099
+- Michael Greshko, The Naibbe cipher, Cryptologia (2025): https://doi.org/10.1080/01611194.2025.2566408
+- Layfield & Davis, Latent Semantic Analysis and the Voynich Manuscript, Digital Humanities Quarterly (2026): https://doi.org/10.63744/2ezxpskcezq4
+- Layfield & Davis, Singulion Structure and the Voynich Manuscript, Digital Medievalist 19 (2026): https://doi.org/10.4000/16k0a
+- Project Gutenberg: Augustine, Confessiones (33849); Culpeper, The Complete Herbal (49513): https://www.gutenberg.org/ebooks/33849
+
+## Licence
+
+Text CC BY 4.0, NaNoBotCo. Code MIT. The transliteration is René Zandbergen's ZL file (voynich.nu); pictures keep their own licences, listed on the page.
