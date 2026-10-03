@@ -1,0 +1,90 @@
+[
+  {
+    "key": "f1r",
+    "file": "f1r.jpg",
+    "width": 726,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(3).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "herbal",
+    "file": "herbal.jpg",
+    "width": 712,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(5).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "rosettes",
+    "file": "rosettes.jpg",
+    "width": 981,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_manuscript_cosmological_example_86v_crop.jpg",
+    "what": ""
+  },
+  {
+    "key": "zodiac",
+    "file": "zodiac.jpg",
+    "width": 1000,
+    "height": 983,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(127).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "balneo",
+    "file": "balneo.jpg",
+    "width": 758,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(135).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "pharma",
+    "file": "pharma.jpg",
+    "width": 718,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(175).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "f116v",
+    "file": "f116v.jpg",
+    "width": 750,
+    "height": 1000,
+    "author": "Beinecke Library, Yale (scan)",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(206).jpg",
+    "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day."
+  },
+  {
+    "key": "voynich",
+    "file": "voynich.jpg",
+    "width": 1000,
+    "height": 724,
+    "author": "unknown photographer",
+    "license": "Public domain",
+    "license_url": "",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg",
+    "what": "Mr. Voynich among his books in Soho Square"
+  }
+]
