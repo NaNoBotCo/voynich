@@ -34,7 +34,7 @@ Vellum could sit blank on a shelf for years before someone wrote on it. Slide th
 
 ## Glyphs
 
-Before you can count anything you have to decide what the letters are. Is that a curl or a new letter? Are two loops joined at the top one letter or two? Different readers answered differently, and their counts came out different.
+Counting starts with deciding what the letters are. Is that a curl or a new letter? Are two loops joined at the top one letter or two? Different readers answered differently, and their counts came out different.
 Most work today uses EVA, the European Voynich Alphabet, set up by René Zandbergen and Gabriel Landini in 1997–98. EVA gives each pen stroke group a Latin letter so a computer can store it. EVA letters are labels, not sounds: daiin is how we spell a word on a keyboard, not how anyone said it.
 Tap a glyph. The bars show where it sits in a word. Some letters keep to one place, the way English q keeps before u.
 
