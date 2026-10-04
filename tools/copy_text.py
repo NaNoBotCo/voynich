@@ -128,7 +128,7 @@ UI = {
         "gl_kick": "Step one: write it down",
         "gl_h": "Glyphs",
         "gl_p": [
-            "Before you can count anything you have to decide what the letters are. Is that a curl or a new letter? Are two loops joined at the top one letter or two? Different readers answered differently, and their counts came out different.",
+            "Counting starts with deciding what the letters are. Is that a curl or a new letter? Are two loops joined at the top one letter or two? Different readers answered differently, and their counts came out different.",
             "Most work today uses EVA, the European Voynich Alphabet, set up by René Zandbergen and Gabriel Landini in 1997–98. EVA gives each pen stroke group a Latin letter so a computer can store it. EVA letters are labels, not sounds: <i>daiin</i> is how we spell a word on a keyboard, not how anyone said it.",
             "Tap a glyph. The bars show where it sits in a word. Some letters keep to one place, the way English <i>q</i> keeps before <i>u</i>.",
         ],
@@ -489,7 +489,7 @@ UI = {
             "herbal": "f2r หน้าสมุนไพร พืชหนึ่งต้นจากรากถึงดอก มีข้อความล้อมรอบ แบกซ์อ่านป้ายว่าเซนทอรี",
             "rosettes": "ส่วนหนึ่งของหน้าพับวงกลม (f85v–f86r) เก้าวงต่อกันด้วยทางเดิน",
             "f116v": "f116v หน้าสุดท้าย ไม่กี่บรรทัดที่ปนคำคล้ายละติน เยอรมัน และอักษรวอยนิช ข้อความที่ถกเถียงกันมากที่สุดในเล่ม",
-            "voynich": "วิลฟริด วอยนิช ท่ามกลางหนังสือในร้านที่โซโหสแควร์ ลอนดอน",
+            "voynich": "วิลฟริด วอยนิช ท่ามกลางหนังสือในร้านที่โซโหสแควร์ ลอนดอน",  # stylecheck: allow — สแควร์ is 'Square', not ควร
             "zodiac": "f70v2 ราศีมีน มีชื่อเดือน <i>mars</i> เป็นอักษรละติน",
             "balneo": "f75r ผู้หญิงในบ่อน้ำที่ต่อกันด้วยท่อ",
             "pharma": "f99r หน้าตำรายา โถ ราก และใบไม้พร้อมป้าย",
